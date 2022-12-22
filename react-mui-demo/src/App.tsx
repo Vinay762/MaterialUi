@@ -3,12 +3,13 @@ import './App.css';
 //import { MuiCards } from './components/MuiCards';
 //import { MuiAccordian } from './components/MuiAccordian';
 //import { MuiImageList } from './components/MuiImageList';
-import { MuiNavbar } from './components/MuiNavbar';
+//import { MuiNavbar } from './components/MuiNavbar';
+import {MuiLink} from './components/MuiLink'
 
 function App() {
   return (
     <div className="App">
-      <MuiNavbar />
+      <MuiLink />
     </div>
   );
 }
