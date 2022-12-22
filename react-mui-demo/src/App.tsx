@@ -1,10 +1,10 @@
 import './App.css';
-import { MuiCheckBox } from './components/MuiCheckBox';
+import { MuiSwitch } from './components/MuiSwitch';
 
 function App() {
   return (
     <div className="App">
-      <MuiCheckBox />
+      <MuiSwitch />
     </div>
   );
 }
